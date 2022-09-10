@@ -2,9 +2,87 @@ section.sectionum {
     background-image: url(img/Backgroundsection.jpg);
     height: 580px;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 60px;     
 }
 
 .doordash1 {
-    height: 15px;
+    height: 23px;
+    margin: 20px;
+    margin-left: 10px;        
 }
+
+nav {
+    color: white;
+    align-items: center;
+    margin-left: 560px;
+    margin-top: none;
+    font-size: 36px;
+    margin-right: none;
+}
+
+.button1 {
+    display: inline-block; 
+    
+    align-items: right;
+    margin-left: 370px;
+    margin-top: none;
+    margin-right: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 70px;
+    color: white;
+    border: none;
+    background: none;
+}
+
+.button2 {
+    display: inline-block; 
+    
+    align-items: right;
+    margin-left: 10px;
+    margin-top: none;
+    margin-right: none;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 70px;
+}
+
+section > div > a {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+section > div > input {
+    height: 45px;
+    width: 370px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 130px;
+}
+
+.button3 {
+    background-color: rgb(236, 33, 33);
+    color: white;
+    font-size: 19px;
+    height: 45px;
+    border-radius: 100px;
+    width: 45px;
+    border: none;
+    padding-bottom: 9px;
+    z-index: +1;
+    position: relative;
+    right: 48px;
+}
+
+.img1 {
+    margin-left: 50px;
+    left: 100px;
+}
+

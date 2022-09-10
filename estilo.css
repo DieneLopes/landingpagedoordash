@@ -1,5 +1,5 @@
 body {
-    font-family: "TTNorms";
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 section.sectionum {
@@ -137,4 +137,8 @@ section > div > p {
 
 .img3 {
     height: 154px;
+}
+
+.principal {
+    font-weight: 700;
 }

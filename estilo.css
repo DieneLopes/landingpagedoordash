@@ -63,7 +63,7 @@ section > div > a {
 }
 
 section > div > input {
-    height: 45px;
+    height: 48px;
     width: 370px;
     border: none;
     border-radius: 50px;
@@ -75,14 +75,15 @@ section > div > input {
     background-color: rgb(253, 17, 0);
     color: white;
     font-size: 19px;
-    height: 45px;
+    height: 42px;
     border-radius: 100px;
-    width: 45px;
+    width: 43px;
     border: none;
     padding-bottom: 9px;
     z-index: +1;
     position: relative;
     right: 48px;
+    
 }
 
 table {
@@ -90,13 +91,14 @@ table {
     height: 200px;
     padding-left: 100px;
     margin-left: 150px;
-    
+    margin-top: 125px;
     font-size: 20px;
     font-family: "TTNorms";   
 }
 
 table > thead > tr > th.img3 {
    width: 200px;
+   height: 154px;
 }
     
 table > tr > td > h2 {
@@ -115,6 +117,11 @@ section > div > h2 {
     font-weight: bold;
     font-size: 40px;
     padding-top: 0px;
+    margin-left: 100px;
+}
+
+section > div > p {
+    margin-left: 100px;
 }
 
 .button4 {
@@ -125,4 +132,5 @@ section > div > h2 {
     background-color: rgb(253, 17, 0);
     color: white;
     font-weight: bold;
+    margin-left: 100px;
 }

@@ -1,3 +1,7 @@
+body {
+    font-family: "TTNorms";
+}
+
 section.sectionum {
     background-image: url(img/Backgroundsection.jpg);
     height: 580px;
@@ -68,7 +72,7 @@ section > div > input {
 }
 
 .button3 {
-    background-color: rgb(236, 33, 33);
+    background-color: rgb(253, 17, 0);
     color: white;
     font-size: 19px;
     height: 45px;
@@ -81,8 +85,44 @@ section > div > input {
     right: 48px;
 }
 
-.img1 {
-    margin-left: 50px;
-    left: 100px;
+table {
+    text-align: center;
+    height: 200px;
+    padding-left: 100px;
+    margin-left: 150px;
+    
+    font-size: 20px;
+    font-family: "TTNorms";   
 }
 
+table > thead > tr > th.img3 {
+   width: 200px;
+}
+    
+table > tr > td > h2 {
+    font-weight: bold;
+    font-size: 37px;
+    font-family: "TTNorms";
+    margin-left: 125px;
+}
+
+.img4 {
+    padding-top: 140px;
+    padding-left: 670px;
+}
+
+section div h2 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 0px;
+}
+
+.button4 {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(253, 17, 0);
+    color: white;
+    font-weight: bold;
+}

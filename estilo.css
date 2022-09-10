@@ -111,7 +111,7 @@ table > tr > td > h2 {
     padding-left: 670px;
 }
 
-section div h2 {
+section > div > h2 {
     font-weight: bold;
     font-size: 40px;
     padding-top: 0px;

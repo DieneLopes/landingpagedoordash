@@ -14,7 +14,6 @@ section.sectionum {
 
 .doordash1 {
     height: 23px;
-    
     margin-left: 10px;     
 }
 .doordash2 {
@@ -39,24 +38,28 @@ nav {
 
 
 .button1 {
-    display: inline-block; 
-    
+    font-family: "DD-TTNorms", "-apple-system", "BlinkMacSystemFont", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: inline-block;    
     align-items: right;
     margin-left: 370px;
     margin-top: none;
     margin-right: none;
     border-radius: 50px;
     height: 40px;
-    width: 70px;
+    width: 80px;
     color: white;
     border: none;
     background: none;
     font-weight: bold;
+    font-size: 15px;
+    
 }
 
 .button2 {
-    display: inline-block; 
-    
+    font-family: "DD-TTNorms", "-apple-system", "BlinkMacSystemFont", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: inline-block;
+    background-color: white;
+    color:rgb(73, 73, 73);   
     align-items: right;
     margin-left: 10px;
     margin-top: none;
@@ -64,8 +67,9 @@ nav {
     border: none;
     border-radius: 50px;
     height: 40px;
-    width: 70px;
+    width: 85px;
     font-weight: bold;
+    font-size: 15px;
 }
 
 section > div > a {

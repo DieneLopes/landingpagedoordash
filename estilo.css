@@ -1,5 +1,5 @@
 body {
-    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "DD-TTNorms", "-apple-system", "BlinkMacSystemFont", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 section.sectionum {
@@ -14,18 +14,26 @@ section.sectionum {
 
 .doordash1 {
     height: 23px;
-    margin: 20px;
-    margin-left: 10px;        
+    
+    margin-left: 10px;     
+}
+
+.principal {
+    font-weight: 700;
 }
 
 nav {
     color: white;
     align-items: center;
-    margin-left: 560px;
+    margin-left: 525px;
     margin-top: none;
-    font-size: 36px;
-    margin-right: none;
+    font-size: 25px;
+    margin-right: 50px;
+    height: 150px;
+    padding-top: 25px;
+    font-weight: 500;
 }
+
 
 .button1 {
     display: inline-block; 
@@ -40,6 +48,7 @@ nav {
     color: white;
     border: none;
     background: none;
+    font-weight: bold;
 }
 
 .button2 {
@@ -53,6 +62,7 @@ nav {
     border-radius: 50px;
     height: 40px;
     width: 70px;
+    font-weight: bold;
 }
 
 section > div > a {
@@ -68,7 +78,8 @@ section > div > input {
     border: none;
     border-radius: 50px;
     padding-left: 20px;
-    margin-top: 130px;
+    margin-top: 0px;
+    
 }
 
 .button3 {
@@ -86,31 +97,48 @@ section > div > input {
     
 }
 
-table {
+.table1 {
     text-align: center;
     height: 200px;
     padding-left: 100px;
     margin-left: 150px;
     margin-top: 125px;
     font-size: 20px;
-    font-family: "TTNorms";   
+    font-family: "DD-TTNorms", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  
+    border-spacing: 200px 0px;
 }
 
-table > thead > tr > th.img3 {
+.table1 > thead > tr > th > .img3 {
    width: 200px;
    height: 154px;
 }
     
-table > tr > td > h2 {
+.table1 > tr > td > h2 {
     font-weight: bold;
     font-size: 37px;
     font-family: "TTNorms";
     margin-left: 125px;
 }
 
-.img4 {
-    padding-top: 140px;
-    padding-left: 670px;
+.table2 > tbody > tr > td > h2 {
+    margin: 0px;
+    font-size: 40px;
+
+}
+
+.table2 > tbody > tr > td > .img4 {
+    margin-top: 100px;
+    
+}
+
+.button4 {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(253, 17, 0);
+    color: white;
+    font-weight: bold;
 }
 
 section > div > h2 {
@@ -120,7 +148,7 @@ section > div > h2 {
     margin-left: 100px;
 }
 
-section > div > p {
+section div p {
     margin-left: 100px;
 }
 
@@ -132,13 +160,4 @@ section > div > p {
     background-color: rgb(253, 17, 0);
     color: white;
     font-weight: bold;
-    margin-left: 100px;
-}
-
-.img3 {
-    height: 154px;
-}
-
-.principal {
-    font-weight: 700;
 }
